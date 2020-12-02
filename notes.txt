@@ -1,0 +1,2 @@
+this is my first nodejs script for the course
+ i have appended contents to the file
