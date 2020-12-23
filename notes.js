@@ -1,5 +1,6 @@
 const fs = require('fs')
 const chalk = require('chalk');
+const multer = require('multer')
 
 const getNotes = (file) => {
     try{
@@ -80,4 +81,6 @@ const readNotes = (title) => {
     }
   
 }
+
+
 module.exports = {getNotes, addNotes, removeNotes, listNotes,readNotes}

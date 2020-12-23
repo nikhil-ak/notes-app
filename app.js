@@ -1,7 +1,7 @@
 const fs = require('fs')
 const fnt = require('./notes.js')
-fs.writeFileSync('notes.txt', 'this is my first nodejs script for the course')
-fs.appendFileSync('notes.txt', '\n i have appended contents to the file')
+// fs.writeFileSync('notes.txt', 'this is my first nodejs script for the course')
+// fs.appendFileSync('notes.txt', '\n i have appended contents to the file')
 // const msg = fnt('notes.txt')
 // console.log(msg)
 
@@ -73,5 +73,7 @@ yargs.command({
         fnt.readNotes(argv.title)
     }
 })
+
+
 
 yargs.parse();
